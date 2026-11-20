@@ -16,7 +16,7 @@ PolieDRO is a novel analytics framework for classification and regression that h
 
 ```julia
 import Pkg
-Pkg.add(url = "https://github.com/joaoqcouto/PolieDRO.jl")
+Pkg.add(url = "https://github.com/LAMPSPUC/PolieDRO.jl")
 using PolieDRO
 
 ## split some dataset into train and test sets

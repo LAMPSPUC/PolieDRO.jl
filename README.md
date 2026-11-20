@@ -8,9 +8,15 @@
 
 | **Build Status** | **Coverage** | **Documentation** |
 |:-----------------:|:-----------------:|:-----------------:|
-| [![Build Status][build-img]][build-url] | [![codecov][codecov-img]][codecov-url] | [![](https://img.shields.io/badge/docs-latest-blue.svg)]( https://joaoqcouto.github.io/PolieDRO.jl/)
+| [![Build Status][build-img]][build-url] | [![codecov][codecov-img]][codecov-url] | [![](https://img.shields.io/badge/docs-guide-blue.svg)](docs/src/index.md)
 
 PolieDRO is a novel analytics framework for classification and regression that harnesses the power and flexibility of data-driven distributionally robust optimization (DRO) to circumvent the need for regularization hyperparameters.
+
+## Documentation
+
+- [Introduction and quickstart](docs/src/index.md)
+- [Model guide](docs/src/models.md)
+- [API reference source](docs/src/reference.md)
 
 ## Features
 * Build, solve and evaluate models in the PolieDRO framework using 3 implemented loss functions
@@ -24,7 +30,7 @@ PolieDRO is a novel analytics framework for classification and regression that h
 
 ```julia
 import Pkg
-Pkg.add(url = "https://github.com/joaoqcouto/PolieDRO.jl")
+Pkg.add(url = "https://github.com/LAMPSPUC/PolieDRO.jl")
 using PolieDRO
 
 ## split some dataset into train and test sets
